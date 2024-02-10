@@ -1,0 +1,18 @@
+Recurrent Neural Networks (RNNs) are a type of neural network that can process sequential data. They have loops that allow information to persist. Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) are two popular types of RNNs that address the vanishing gradient problem¹. 
+
+LSTM has three gates: forget gate, input gate, and output gate. The forget gate decides which information should be removed from the cell state. The input gate decides which information should be added to the cell state. The output gate decides which information should be outputted¹. 
+
+GRU has two gates: reset gate and update gate. The reset gate decides how much of the previous state should be forgotten. The update gate decides how much of the new state should be added².
+
+Peephole-LSTM is an extension of LSTM that adds connections between the cell state and the gates¹.
+
+Here is a matrix workflow of LSTM ¹:
+
+![LSTM Matrix Workflow](https://miro.medium.com/max/1400/1*6xZa8QZ0oxfjCnM5fAqTkg.png)
+
+I hope this helps!
+
+Source: Conversation with Bing, 9/2/2023
+(1) What is LSTM , peephole LSTM and GRU? - Medium. https://medium.com/nerd-for-tech/what-is-lstm-peephole-lstm-and-gru-77470d84954b.
+(2) RNN vs GRU vs LSTM - Medium. https://medium.com/analytics-vidhya/rnn-vs-gru-vs-lstm-863b0b7b1573.
+(3) Difference between feedback RNN and LSTM/GRU - Cross Validated. https://stats.stackexchange.com/questions/222584/difference-between-feedback-rnn-and-lstm-gru.
